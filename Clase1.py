@@ -186,19 +186,4 @@ print("las cuotas especiales son de un valor de: ")
 print(Cuota_Especial)
 Cuota_Mensual = Cuota_media / 20
 print("Las cuotas a pagar mensuales seran de un valor de: ")
-print(Cuota_Mensual)
-
-# Taller numero 2
-# Ejercicio # 1
-Valor_Camisa = float(input("Digite el valor de la camisa"))
-No_Camisa = float(input("Digite el numero de camisa"))
-No_Valor = Valor_Camisa * No_Camisa
-Descuento3 = No_Valor * 0.30
-Descuento3_total = No_Valor - Descuento3
-Descuento1 = No_Valor * 0.10
-Descuento1_total = No_Valor - Descuento3
-if (No_Camisa >= 3):
-    print(Descuento3_total)
-else:
-    print(Descuento1_total)
-                 
+print(Cuota_Mensual)                 

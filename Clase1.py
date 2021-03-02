@@ -201,5 +201,4 @@ if (No_Camisa >= 3):
     print(Descuento3_total)
 else:
     print(Descuento1_total)
-
-# Ejercicio # 2                         
+                 
